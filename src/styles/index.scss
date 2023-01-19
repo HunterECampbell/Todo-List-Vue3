@@ -1,0 +1,15 @@
+@import './classes.scss';
+@import './variables.scss';
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  @extend .size-100-percent;
+  @extend .text-center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  background: $global-white;
+  margin: 0;
+}

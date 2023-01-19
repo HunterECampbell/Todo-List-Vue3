@@ -1,0 +1,29 @@
+@import '@/styles/variables.scss';
+
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-center-column {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-center;
+  @extend .align-center;
+}
+
+.size-100-percent {
+  height: 100%;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
