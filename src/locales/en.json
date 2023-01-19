@@ -1,5 +1,12 @@
 {
   "todo": {
-    "header": "My Todos"
+    "header": "My Todos",
+    "buttons": {
+      "add_todo": "Add Todo",
+      "delete_todo": "Delete Todo"
+    },
+    "inputs": {
+      "todo": "Todo"
+    }
   }
 }

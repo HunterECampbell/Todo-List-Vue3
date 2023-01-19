@@ -10,8 +10,14 @@
 .justify-center {
   justify-content: center;
 }
+.justify-space-between {
+  justify-content: space-between;
+}
 .align-center {
   align-items: center;
+}
+.flex-grow-1 {
+  flex-grow: 1;
 }
 .flex-center-column {
   @extend .d-flex;
